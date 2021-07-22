@@ -1,6 +1,8 @@
 # Testing github actions for r-model workflow CI testing
 
 1. set up with tutorial workflow
+    1. workflow file sets up jobs - main.yml
+    2. 
 2. set up with intermediary workflow
     - environments
     - 
