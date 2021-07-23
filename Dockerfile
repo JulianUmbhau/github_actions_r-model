@@ -15,4 +15,4 @@ COPY main_script.R /home/
 
 RUN chmod +x /home/main_script.R
 
-CMD Rscript /home/main_script.R
+CMD Rscript /home/main_script.R INPUT_HELLO
