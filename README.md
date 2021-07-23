@@ -26,3 +26,11 @@
 
 
 ## NB public untill it contains proprietary information
+
+
+# TODO:
+Set up entrypoint.sh file to run main_script.R with arguments
+- set entrypoint.sh to run from Dockerfile
+- First - TEST with entrypoint input1 test
+
+
