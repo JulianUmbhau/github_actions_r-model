@@ -2,6 +2,10 @@
 
 1. set up with tutorial workflow
     1. workflow file sets up jobs - main.yml
+        - ubuntu
+        - checkout
+        - action from root
+        - 
     2. 
 2. set up with intermediary workflow
     - environments
