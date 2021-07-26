@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-#args = commandArgs(trailingOnly=TRUE)
+args = commandArgs(trailingOnly=TRUE)
 
 # get arguments from entrypoint.sh file
 
