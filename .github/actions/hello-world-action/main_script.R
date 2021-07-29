@@ -2,7 +2,7 @@
 
 # get arguments from entrypoint.sh file
 
-WHO_TO_GREET <- Sys.getenv("INPUT_WHOTOGREET")
+WHO_TO_GREET <- Sys.getenv("INPUT_WHO-TO-GREET")
 
 print(paste0("Hello ", WHO_TO_GREET))
 
