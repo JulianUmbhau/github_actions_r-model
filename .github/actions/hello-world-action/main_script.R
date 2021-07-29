@@ -1,9 +1,9 @@
 #!/usr/bin/env Rscript
-args = commandArgs(trailingOnly=TRUE)
 
 # get arguments from entrypoint.sh file
 
+WHO_TO_GREET <- Sys.getenv("INPUT_WHO-TO-GREET")
 
-print(paste0("Hello ", args[1]))
+print(paste0("Hello ", WHO_TO_GREET))
 
 print(paste0("::set-output name=time::", Sys.time()))
