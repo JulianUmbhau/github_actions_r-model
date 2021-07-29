@@ -4,6 +4,6 @@
 
 WHO_TO_GREET <- Sys.getenv("INPUT_WHO-TO-GREET")
 
-print(paste0("Hello ", WHO_TO_GREET))
+message(paste0("Hello ", WHO_TO_GREET))
 
-print(paste0("::set-output name=time::", Sys.time()))
+message(paste0("::set-output name=time::", Sys.time()))
